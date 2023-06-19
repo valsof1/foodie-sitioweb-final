@@ -1,0 +1,492 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,800&display=swap');
+
+:root{
+--color-textos:#606060;
+--color-negro:#000;
+--fondo-header:#f4f3f7;
+--color-menu:#121212;
+--color-menu-hover:#218fe6;
+--color-titulos:#303030;
+--color-azul:#218fe6;
+--fondo-gris:#f8f8f8;
+--color-letra-gris:#888;
+--color-subtitulo:#777;
+--fondo-footer-columns:#1b1b1b;
+--fondo-footer-copy:#151515;
+--color-footer:#797979;
+}
+
+@font-face {      
+font-family: "Brasika";      
+src: url("../font/BrasikaDisplay.ttf") format('truetype');    
+}
+
+header h1{
+font-family: "Brasika"
+
+}
+header h3{
+font-family: "Crimson Pro', serif";
+}
+
+.guia{
+	justify-content: flex-end;
+	display: flex;
+}
+.container-fluid{
+	background-color: black;
+}
+.rebelde{
+	color: white !important;
+}
+#FOODIE{
+	font-family: "Brasika";
+}
+.crimson{
+	font-family: "Crimson Pro', serif";
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+.brasika{
+	font-family: "Brasika";
+	display: flex;
+	justify-content: center;
+	color: white;	
+}
+#centro{
+	padding-left: 35%;
+	padding-right: 35%;
+	font-size: 25px;
+}
+#welcome{
+	font-size: 50px;
+}
+.col img{
+	width: 50%;
+	height: 50%;
+}
+.segundo{
+	padding-top: 7rem;
+}
+.col p a{
+	color:white;
+}
+.breakfast{
+	font-family: "Brasika";
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.curious{
+	font-family: "Crimson Pro', serif";
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.ricotta-toast{
+	font-family: "Crimson Pro', serif";
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.cinnamon{
+	font-family: "Crimson Pro', serif";
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.estrellitas{
+	width: 150px;
+	height:	50px;
+	display: block;
+	margin: auto;
+}
+.siguiente-enlace{
+	display: flex;
+	justify-content: center;
+}
+.Breakfast{
+	font-family: "Brasika";
+	color: #e1c340;
+	display: flex;
+	justify-content: center;
+}
+.Toast{
+	font-family: "Crimson Pro', serif";
+	display: flex;
+	justify-content: center;
+}
+.Move{
+	font-family: "Crimson Pro', serif";
+	display: flex;
+	justify-content: center;
+	color: antiquewhite
+}
+.layer{
+	background-color: rgba(7,7,7,0.84);
+	position:relative;
+	height: 100%;
+	background-position:center;
+  	background-repeat:no-repeat;
+  	background-size:cover;
+	background-attachment: fixed;
+	display: block;
+	top:0;
+}
+.background{
+	background-image:url( "../img/Recetas Foodie sitio web/imagen-de-fondo-home-page-compressed.jpg");
+	position:relative;
+	height: 100%;
+	background-position:center;
+  	background-repeat:no-repeat;
+  	background-size:cover;
+	background-attachment: fixed;
+	display: block;
+	top:0;
+}
+.layer{
+	background-color: rgba(7,7,7,0.84);
+	position:relative;
+	height: 100%;
+	background-position:center;
+  	background-repeat:no-repeat;
+  	background-size:cover;
+	background-attachment: fixed;
+	display: block;
+	top:0;
+}
+.about-us{
+	font-family: "Brasika";
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.our{
+	font-family: "Crimson Pro', serif";
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 5%;
+	font-size: 25px;
+}
+.footer{
+	background-color:#013927;
+	display: flex;
+	padding: 1rem 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.contact{
+	font-family: "Crimson Pro', serif";
+	color: white;
+}
+.honduras{
+	font-family: "Crimson Pro', serif";
+	color: white;
+}
+.tel{
+	font-family: "Crimson Pro', serif";
+	color: white;
+}
+.foodieg{
+	font-family: "Crimson Pro', serif";
+	color: white;
+}
+.follow{
+	font-family: "Crimson Pro', serif";
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+}
+.Foodiehn{
+	font-family:"Brasika";
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+}
+.coconut{
+	font-family: "Crimson Pro', serif";
+	color: white;
+}
+.every{
+	font-family: "Crimson Pro', serif";
+	color: white;
+}
+.anyway{
+	font-family: "Crimson Pro', serif";
+	color: white;
+}
+.the{
+	font-family: "Crimson Pro', serif";
+	color: white;
+}
+.coconut-tres{
+	font-family: "Crimson Pro', serif";
+	color: white;
+}
+.ingredients{
+	font-family: "Crimson Pro', serif";
+	color: white;
+}
+.lista{
+	font-family: "Crimson Pro', serif";
+	color: white;
+}
+.Add{
+	font-family: "Crimson Pro', serif";
+	color: white;
+}
+.flip{
+	font-family: "Crimson Pro', serif";
+	color: white;
+}
+.in{
+	font-family: "Crimson Pro', serif";
+	color: white;
+}
+.enjoy{
+	font-family: "Crimson Pro', serif";
+	color: white;
+}
+.br{
+	color:white !important;
+	font-size: 20px;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+}
+.hola{
+	color: white !important;
+}
+.comida{
+	color: white !important;
+	font-size: 20px;
+	display: flex;
+}
+.comida span{
+	padding-top: 15%;
+}
+.comida img{
+	height: 40%;
+}
+.foodiehn{
+	font-family: "Brasika";
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.recipes{
+	font-family: "Crimson Pro', serif";
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.nav-link{
+	font-family: "Brasika";
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.organized{
+	font-family: "Crimson Pro', serif";
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.facebook{
+	
+}
+.instagram{
+	display: flex;
+	justify-content:flex-end;
+}
+.twitter{
+	display: flex;
+	justify-content:flex-end;
+}.espacio{
+	height: 500px
+}
+.hi{
+	padding-left: 80%;
+}
+.contact{
+	font-family: "Brasika";
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.newsletter{
+	font-family: "Brasika";
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.updates{
+	font-family: "Crimson Pro', serif";
+	color: black;
+	display: flex;
+	justify-content: center;
+}
+.receive{
+	font-family: "Crimson Pro', serif";
+	color: black;
+	display: flex;
+	justify-content: center;
+}
+.boton{
+	font-family: "Crimson Pro', serif";
+	font-weight: 700;
+	display: black;
+	width: 50px;
+	border-radius: 10px;
+	margin: 150px 130px;
+	padding: 15px 30px;
+	background-color: #013927;
+	color: white;
+	text-decoration: none;
+}
+.nav-link{
+	font-family: "Crimson Pro', serif";
+	font-weight: 700;
+	display: black;
+	width: 50px;
+	border-radius: 10px;
+	margin: 150px 130px;
+	padding: 15px 30px;
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+}
+.bowl{
+	font-family: "Crimson Pro', serif";
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.cinna{
+	font-family: "Brasika";
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.dough{
+	font-family: "Crimson Pro', serif";
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.ingrediente{
+	font-family: "Crimson Pro', serif";
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.best{
+	font-family: "Crimson Pro', serif";
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.imput-group{
+	font-family: "Crimson Pro', serif";
+	color: black;
+	display: flex;
+	justify-content: center;
+	background-color: #e1c340;
+	flex-direction: column;
+	text-align: left;
+	height: 50vh;
+	width: 100vh;
+}
+.boton2{
+	font-family: "Crimson Pro', serif";
+	font-weight: 700;
+	display: black;
+	width: 50px;
+	border-radius: 10px;
+	margin: 150px 130px;
+	padding: 15px 30px;
+	background-color: #86b3bf;
+	color: black;
+	text-decoration: none;
+}
+.imput-contact{
+	font-family: "Crimson Pro', serif";
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	height: 20vh;
+	width: 30vh;
+	min-height: 100vh;
+}
+.sign{
+font-family: "Crimson Pro', serif";
+	color: black;
+	display: flex;
+	justify-content: center;	
+}
+.top{
+	font-family: "Crimson Pro', serif";
+	color: black;
+	display: flex;
+	justify-content: center;
+}
+.contact-information{
+	font-family: "Crimson Pro', serif";
+	color: white;
+	display: flex;
+	justify-content: center;	
+}
+.Social{
+	font-family: "Crimson Pro', serif";
+	color: white;
+	display: flex;
+	justify-content: center;	
+}
+.foodie-hn{
+	font-family: "Crimson Pro', serif";
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	color: #FFFFFF;
+}
+
+h2 {
+	color: #FFFFFF;
+}
+
+h3 {
+	color: #FFFFFF;
+}
+
+h4 {
+	color: #FFFFFF;
+}
+
+h5 {
+	color: #FFFFFF;
+}
+
+p {
+	color: #FFFFFF;
+}
+
+li {
+	color: #FFFFFF;
+}
+
+.imput-group {
+	align-content: center;
+	align-items: center;
+}
